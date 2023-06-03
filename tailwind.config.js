@@ -26,7 +26,7 @@ module.exports = {
       },
       fontFamily: {
         mono: ['Roboto'],
-        brand: 'Dancing Script, cursive'
+        brand: 'Dancing Script, cursive',
       },
       boxShadow: {
         sm: '0 5px 10px rgba(0, 0, 0, 0.12)',

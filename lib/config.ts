@@ -14,7 +14,7 @@ const get = <T>(
 }
 
 export const config = {
-  title: "Bakery",
+  title: 'Bakery',
   posts: {
     releasedEnabled: get('POSTS_RELEASED_ENABLED', 'true') === 'true',
     draftEnabled: get('POSTS_DRAFT_ENABLED', 'false') === 'true',

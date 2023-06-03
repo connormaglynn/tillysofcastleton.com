@@ -24,7 +24,6 @@ const Home: NextPage = () => {
 
         <div className={styles.container}>
           <main className={styles.main}>
-
             <section id="portfolio" className={styles.section}>
               <h1 className={styles.title}>Portfolio</h1>
               <div className={styles.grid}>
