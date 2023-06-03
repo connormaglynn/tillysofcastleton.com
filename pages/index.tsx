@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <Header />
 
         <div className={styles.landing}>
-          <div className="flex h-full justify-center items-center">
+          <div className="flex h-full justify-right md:justify-center items-center">
             <p className="font-brand text-7xl text-white">Your Local Bakery</p>
           </div>
         </div>

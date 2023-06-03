@@ -5,7 +5,7 @@ import styles from '../../styles/Home.module.css'
 
 const Header = () => {
   return (
-    <div className="top-0 w-full p-14 drop-shadow-md bg-white z-10 bg-accent-1 text-white bg-opacity-50">
+    <div className="top-0 w-full p-14 drop-shadow-md bg-white z-10 bg-accent-1 text-white bg-opacity-50 text-center md:text-left">
       <Link href="/" className={styles.header}>
         <Image
           src="/assets/logo.png"

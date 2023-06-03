@@ -114,6 +114,9 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
 }
 
 .card {
@@ -125,7 +128,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 350px;
+  flex-grow: 1;
   min-height: 200px;
 }
 
