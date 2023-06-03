@@ -5,7 +5,7 @@ import styles from '../../styles/Home.module.css'
 
 const Header = () => {
   return (
-    <div className="fixed top-0 w-full p-6 drop-shadow-md bg-white z-10">
+    <div className="top-0 w-full p-14 drop-shadow-md bg-white z-10 bg-accent-1 text-white bg-opacity-50 text-center md:text-left">
       <Link href="/" className={styles.header}>
         <Image
           src="/assets/logo.png"
@@ -14,24 +14,17 @@ const Header = () => {
           alt="Blog Logo"
           className="drop-shadow-md inline"
         />
-        <h1 className="inline text-3xl align-middle pl-4">
-          {config.author.name}
+        <h1 className="inline text-3xl align-middle pl-4 font-brand">
+          {config.title}
         </h1>
       </Link>
 
       <nav className={styles.nav}>
         <Link href="/#portfolio">Portfolio</Link>
         <Link href="/#about">About</Link>
-        <Link href="/blog">Blog</Link>
+        <Link href="/#contact">Contact</Link>
       </nav>
     </div>
-
-    // <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
-    //   <Link href="/Users/connor.glynn/git/tech-blog-ui/pages">
-    //     <a className="hover:underline">Connor Glynn</a>
-    //   </Link>
-    //   .
-    // </h2>
   )
 }
 

@@ -1,6 +1,5 @@
 import { AppProps } from 'next/app'
 import '../styles/index.css'
-import 'prismjs/themes/prism-tomorrow.css'
 import Script from 'next/script'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
