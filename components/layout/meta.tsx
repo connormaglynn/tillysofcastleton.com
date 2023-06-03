@@ -34,8 +34,9 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`🚀 A blog to document my journey as a software developer.`}
+        content={`Bakery`}
       />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
   )
