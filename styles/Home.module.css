@@ -12,30 +12,14 @@
   align-items: center;
 }
 
-.header .logo {
-  float: left;
-  position: absolute;
-}
-
-.header .logo img {
-  height: 120px;
-}
-
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: fit-content;
-  float: right;
-}
-
-.nav a {
+.nav_link {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
   font-weight: bold;
   border-bottom: 2px solid transparent;
+  flex-wrap: wrap;
 }
 
 .section {
@@ -171,24 +155,4 @@
     url(/assets/main.jpg);
   background-size: cover;
   background-position: center;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 110%;
-    flex-direction: column;
-  }
-
-  .header .logo {
-    display: flex;
-    float: none;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding-top: 30px;
-  }
-
-  .header .logo img {
-    height: 64px;
-  }
 }

@@ -5,24 +5,32 @@ import styles from '../../styles/Home.module.css'
 
 const Header = () => {
   return (
-    <div className="top-0 w-full p-14 drop-shadow-md bg-white z-10 bg-accent-1 text-white bg-opacity-50 text-center md:text-left">
-      <Link href="/" className={styles.header}>
-        <Image
-          src="/assets/logo.png"
-          width={50}
-          height={50}
-          alt="Blog Logo"
-          className="drop-shadow-md inline"
-        />
-        <h1 className="inline text-3xl align-middle pl-4 font-brand">
-          {config.title}
-        </h1>
+    <div className="flex flex-wrap w-full p-10 drop-shadow-md z-10 bg-accent-1 text-white bg-opacity-50 text-center">
+      <Link href="/" className="basis-full pb-5">
+        <div className="align-left">
+          <Image
+            src="/assets/logo.png"
+            width={50}
+            height={120}
+            alt="Blog Logo"
+            className="drop-shadow-md inline"
+          />
+          <h1 className="inline text-3xl align-middle font-brand">
+            {config.title}
+          </h1>
+        </div>
       </Link>
 
-      <nav className={styles.nav}>
-        <Link href="/#portfolio">Portfolio</Link>
-        <Link href="/#about">About</Link>
-        <Link href="/#contact">Contact</Link>
+      <nav className="basis-full sm:float-right">
+        <Link className={styles.nav_link} href="/#portfolio">
+          Portfolio
+        </Link>
+        <Link className={styles.nav_link} href="/#about">
+          About
+        </Link>
+        <Link className={styles.nav_link} href="/#contact">
+          Contact
+        </Link>
       </nav>
     </div>
   )
