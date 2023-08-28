@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { config } from '../../lib/config'
+import { index } from '../../config'
 
 const Meta = () => {
   return (
@@ -34,7 +34,7 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="description" content={`Bakery`} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:image" content={config.homeOgUrl} />
+      <meta property="og:image" content={index.homeOgUrl} />
     </Head>
   )
 }
