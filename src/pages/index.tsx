@@ -10,8 +10,8 @@ const Home: NextPage = () => {
       <Layout>
         <Head>
           <title>Bakery</title>
-          <meta name='description' content='The Bakery Shop' />
-          <link rel='icon' href='/favicon.ico' />
+          <meta name="description" content="The Bakery Shop" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
         <Hero />

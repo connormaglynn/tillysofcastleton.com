@@ -6,8 +6,8 @@
       100deg,
       rgba(248, 200, 220, 0.8),
       rgba(248, 200, 220, 0.4)
-  ),
-  url(/assets/main.jpg);
+    ),
+    url(/assets/main.jpg);
   background-size: cover;
   background-position: center;
 }
