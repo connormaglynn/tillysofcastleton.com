@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#F8C8DC',
+        'accent-1': '#2F302A',
+        'accent-2': '#DAB73A',
+        'accent-3': '#F6D474',
       },
       spacing: {
         28: '7rem',
@@ -22,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         mono: ['Roboto'],
-        brand: 'Dancing Script, cursive',
+        brand: 'The Girl Next Door',
       },
       boxShadow: {
         sm: '0 5px 10px rgba(0, 0, 0, 0.12)',

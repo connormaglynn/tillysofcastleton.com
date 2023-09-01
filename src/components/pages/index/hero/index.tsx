@@ -5,8 +5,8 @@ const Hero = () => {
     <>
       <section className={styles.landing}>
         <div className="flex h-full w-full items-center">
-          <p className="font-brand text-6xl text-white bg-accent-1 bg-opacity-95 p-5">
-            Your Local Bakery 🧁
+          <p className="font-brand text-2xl text-accent-1 bg-accent-3 bg-opacity-90 p-5 mt-[550px] w-full text-center">
+            Traditional English Tea Rooms
           </p>
         </div>
       </section>

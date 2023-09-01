@@ -1,4 +1,5 @@
 export const index = {
-  title: 'Bakery',
+  title: 'Tilly\'s of Castleton',
+  description: 'Traditional English Tea Room',
   homeOgUrl: '/assets/logo.png',
 }
