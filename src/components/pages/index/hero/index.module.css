@@ -1,7 +1,5 @@
 .landing {
-    margin-top: -200px;
-    height: 900px;
-    width: 100%;
+    margin-top: -100px;
     background: linear-gradient(
             to bottom,
             rgba(218, 183, 58, 0.6),
@@ -10,4 +8,5 @@
     url(/assets/background-desktop.jpeg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }

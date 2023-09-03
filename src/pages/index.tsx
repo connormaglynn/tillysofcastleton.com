@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <Head>
-          <title>Bakery</title>
+          <title>Tilly's of Castleton</title>
           <meta name="description" content="The Bakery Shop" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
