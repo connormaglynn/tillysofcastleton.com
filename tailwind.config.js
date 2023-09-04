@@ -25,6 +25,7 @@ module.exports = {
       fontFamily: {
         mono: ['Roboto'],
         brand: "'The Girl Next Door', cursive",
+        brand2: "'Single Day', cursive"
       },
       boxShadow: {
         sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
