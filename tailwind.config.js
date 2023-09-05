@@ -8,7 +8,7 @@ module.exports = {
         'accent-3': '#F6D474',
       },
       backgroundImage: {
-        'hero-image': "url(/assets/background-desktop.jpeg)"
+        'hero-image': 'url(/assets/background-desktop.jpeg)',
       },
       spacing: {
         28: '7rem',
